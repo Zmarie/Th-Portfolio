@@ -43,7 +43,7 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: white;
+    color: #a8b3b3;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -75,6 +75,9 @@ header .profile-image {
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
+}
+h2 {
+  color: #273232;
 }
 .tag {
   color: #c9dddd;
