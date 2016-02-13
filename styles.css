@@ -72,11 +72,12 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
+  border-radius: 50%;
   border: 3px solid white;
-  transform: skewX(25deg);
+  transition: all .5s;
 }
 header .profile-image:hover {
-  transform: skewY(25deg);
+  transform: rotate(360deg);
 }
 h2 {
   color: #273232;
@@ -134,6 +135,7 @@ footer {
 footer .copyright {
   top: -8px;
   font-size: .75em;
+  font-style: italic;
 }
 
 footer ul {
