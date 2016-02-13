@@ -15,10 +15,12 @@ body {
 
 a {
   text-decoration: none;
-  color: #a8b3b3;
 }
 a:hover {
-  color: #6633ff;
+  border-bottom: 1px solid #556060;
+}
+a, a:hover {
+  color: #a2cdcd;
 }
 
 /* Section Styles */
@@ -53,6 +55,7 @@ a:hover {
 }
 .nav a:hover {
   color: #92aaaa;
+  border: none;
 }
 
 header {
@@ -69,12 +72,11 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
   border: 3px solid white;
-  transition: all .5s;
+  transform: skewX(25deg);
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: skewY(25deg);
 }
 h2 {
   color: #273232;
