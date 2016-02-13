@@ -95,17 +95,23 @@ h2 {
   color: #a2c9c9;
 }
 .card {
+  max-width: 500px;
+}
+.about-me-page, .card {
   margin: 30px;
   padding: 20px 40px 40px;
-  max-width: 500px;
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #a6b9b9;
   border-radius: 6px;
   transition: all .5s;
 }
-.card:hover {
+.about-me-page, .card:hover {
   border-color: #90b2b2;
+}
+
+.about-me-page {
+  width: 100%;
 }
 
 ul.skills {
